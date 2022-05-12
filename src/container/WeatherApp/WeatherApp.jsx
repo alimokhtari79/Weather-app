@@ -36,7 +36,7 @@ const WeatherApp = () => {
 							className="searchInput"
 							onChange={(e) => setInputValue(e.target.value)}
 							value={inputValue}
-							placeholder="Search Location"
+							placeholder="Search ..."
 							onKeyPress={searchLocation}
 						/>
 					</div>
